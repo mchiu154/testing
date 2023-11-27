@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <title>mui's corner!</title>
+    <meta charset="utf-8">
+    <!-- Font import -->
+    <link rel="stylesheet" href="https://use.typekit.net/yourfontkitid.css">
+    
+    <style>
+      @media screen {
+        header {
+          flex-direction: row;
+          text-align: center;
+        }
+      }
+
+      header {
+        color: white;
+        background-color: #e1d6ea;
+        font-family: "Nanum Pen Script";
+        font-weight: lighter;
+        font-size: 30px;
+        width: 100%;
+        padding: 10px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+      }
+
+      header img {
+        margin-left: 10px;
+        margin-right: 20px;
+        width: 80px;      
+      }
+
+      #subpages {
+        position: relative;
+        display: flex;
+        align-items: center;
+      }
+
+      .subpage {
+        margin-top: 70px;
+        margin-left: 12%;
+        text-align: center;
+      }
+
+      .subpage img {
+        width: 20%; /* Adjust the width as needed */
+        max-width: 190px;
+      }
+
+      nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
+
+      nav a {
+        margin: 40px 20px; /* Adjust the margin */
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      body {
+        color: white;
+        background-color: #fff2e2;
+        background-position: center;
+        font-family: Georgia, Times, serif;
+        line-height: 1.4em;
+        margin: 0;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <header>
+      <img src="logo.png" alt="small logo">
+      <h1>mui's corner</h1>
+    </header>
+
+    <div id="subpages">
+      <div class="subpage">
+        <img src="about the artist.png" alt="about">
+        <p>About the Artist</p>
+      </div>
+      <div class="subpage">
+        <img src="gallary.png" alt="gallary">
+        <p>Gallary</p>
+      </div>
+      <div class="subpage">
+        <img src="connect with me.png" alt="connect">
+        <p>Connect With Me!</p>
+      </div>
+      <div class="subpage">
+        <img src="book.png" alt="book">
+        <p>Book An Appointment!</p>
+      </div>
+    </div>    
+    
+    <nav>
+      <a href="about.html">
+        <img src="about_icon.png" alt="about icon">
+        About the Artist
+      </a>
+      <a href="gallary.html">
+        <img src="gallery_icon.png" alt="gallery icon">
+        Gallary
+      </a>
+      <a href="connect.html">
+        <img src="connect_icon.png" alt="connect icon">
+        Connect With Me!
+      </a>
+      <a href="Book.html">
+        <img src="book_icon.png" alt="book icon">
+        Book An Appointment!
+      </a>
+    </nav>
+  </body>
+</html>
